@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "webpack --watch",
-    "start": "nodemon server/server.js | webpack --watch",
+    "start": "node server/server.js && webpack --watch",
     "test": "mocha test"
   },
   "dependencies": {
